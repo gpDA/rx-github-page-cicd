@@ -5,6 +5,7 @@ import { SharedUi } from '@react-monorepo/shared-ui';
 export function App() {
   return (
     <div>
+      test
       <SharedUi />
     </div>
   );
