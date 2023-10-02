@@ -1,0 +1,18 @@
+{
+    "sourceFile": "tsconfig.base.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1696270369892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1696270369892,
+            "name": "Commit-0",
+            "content": "{\n  \"compileOnSave\": false,\n  \"compilerOptions\": {\n    \"rootDir\": \".\",\n    \"sourceMap\": true,\n    \"declaration\": false,\n    \"moduleResolution\": \"node\",\n    \"emitDecoratorMetadata\": true,\n    \"experimentalDecorators\": true,\n    \"importHelpers\": true,\n    \"target\": \"es2015\",\n    \"module\": \"esnext\",\n    \"lib\": [\"es2020\", \"dom\"],\n    \"skipLibCheck\": true,\n    \"skipDefaultLibCheck\": true,\n    \"baseUrl\": \".\",\n    \"paths\": {\n      \"@react-monorepo/shared-ui\": [\"libs/shared/ui/src/index.ts\"]\n    }\n  },\n  \"exclude\": [\"node_modules\", \"tmp\"]\n}\n"
+        }
+    ]
+}
