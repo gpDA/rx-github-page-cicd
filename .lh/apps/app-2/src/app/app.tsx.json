@@ -1,0 +1,26 @@
+{
+    "sourceFile": "apps/app-2/src/app/app.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1696276677164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1696276754599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n \n export function App() {\n   return (\n     <div>\n+      This is app-2\n       <SharedUi />\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1696343174268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+// eslint-disable-next-line @typescript-eslint/no-unused-vars\n+import styles from './app.module.scss';\n+import { SharedUi } from '@react-monorepo/shared-ui';\n+\n+export function App() {\n+  return (\n+    <div>\n+      This is app-2\n+      <SharedUi />\n+    </div>\n+  );\n+}\n+\n+export default App;\n"
+                }
+            ],
+            "date": 1696276677164,
+            "name": "Commit-0",
+            "content": "// eslint-disable-next-line @typescript-eslint/no-unused-vars\nimport styles from './app.module.scss';\nimport { SharedUi } from '@react-monorepo/shared-ui';\n\nexport function App() {\n  return (\n    <div>\n      <SharedUi />\n    </div>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}

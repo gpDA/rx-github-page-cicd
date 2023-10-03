@@ -1,0 +1,18 @@
+{
+    "sourceFile": "apps/react-monorepo/project.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1696273278013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1696273278013,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"react-monorepo\",\n  \"$schema\": \"../../node_modules/nx/schemas/project-schema.json\",\n  \"sourceRoot\": \"apps/react-monorepo/src\",\n  \"projectType\": \"application\",\n  \"targets\": {\n    \"build\": {\n      \"executor\": \"@nx/webpack:webpack\",\n      \"outputs\": [\"{options.outputPath}\"],\n      \"defaultConfiguration\": \"production\",\n      \"options\": {\n        \"compiler\": \"babel\",\n        \"outputPath\": \"dist/apps/react-monorepo\",\n        \"index\": \"apps/react-monorepo/src/index.html\",\n        \"baseHref\": \"/\",\n        \"main\": \"apps/react-monorepo/src/main.tsx\",\n        \"tsConfig\": \"apps/react-monorepo/tsconfig.app.json\",\n        \"assets\": [\n          \"apps/react-monorepo/src/favicon.ico\",\n          \"apps/react-monorepo/src/assets\"\n        ],\n        \"styles\": [\"apps/react-monorepo/src/styles.scss\"],\n        \"scripts\": [],\n        \"isolatedConfig\": true,\n        \"webpackConfig\": \"apps/react-monorepo/webpack.config.js\"\n      },\n      \"configurations\": {\n        \"development\": {\n          \"extractLicenses\": false,\n          \"optimization\": false,\n          \"sourceMap\": true,\n          \"vendorChunk\": true\n        },\n        \"production\": {\n          \"fileReplacements\": [\n            {\n              \"replace\": \"apps/react-monorepo/src/environments/environment.ts\",\n              \"with\": \"apps/react-monorepo/src/environments/environment.prod.ts\"\n            }\n          ],\n          \"optimization\": true,\n          \"outputHashing\": \"all\",\n          \"sourceMap\": false,\n          \"namedChunks\": false,\n          \"extractLicenses\": true,\n          \"vendorChunk\": false\n        }\n      }\n    },\n    \"serve\": {\n      \"executor\": \"@nx/webpack:dev-server\",\n      \"defaultConfiguration\": \"development\",\n      \"options\": {\n        \"buildTarget\": \"react-monorepo:build\",\n        \"hmr\": true\n      },\n      \"configurations\": {\n        \"development\": {\n          \"buildTarget\": \"react-monorepo:build:development\"\n        },\n        \"production\": {\n          \"buildTarget\": \"react-monorepo:build:production\",\n          \"hmr\": false\n        }\n      }\n    },\n    \"lint\": {\n      \"executor\": \"@nx/linter:eslint\",\n      \"outputs\": [\"{options.outputFile}\"],\n      \"options\": {\n        \"lintFilePatterns\": [\"apps/react-monorepo/**/*.{ts,tsx,js,jsx}\"]\n      }\n    },\n    \"test\": {\n      \"executor\": \"@nx/jest:jest\",\n      \"outputs\": [\"{workspaceRoot}/coverage/{projectRoot}\"],\n      \"options\": {\n        \"jestConfig\": \"apps/react-monorepo/jest.config.ts\",\n        \"passWithNoTests\": true\n      },\n      \"configurations\": {\n        \"ci\": {\n          \"ci\": true,\n          \"codeCoverage\": true\n        }\n      }\n    }\n  },\n  \"tags\": []\n}\n"
+        }
+    ]
+}

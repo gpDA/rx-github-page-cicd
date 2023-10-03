@@ -5,11 +5,7 @@ import { SharedUi } from '@react-monorepo/shared-ui';
 export function App() {
   return (
     <div>
-<<<<<<< Updated upstream
-      test
-=======
-      This is react-monorepo
->>>>>>> Stashed changes
+      This is app-2
       <SharedUi />
     </div>
   );

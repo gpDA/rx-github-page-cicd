@@ -1,0 +1,30 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1696343072450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1696343247040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n # ReactMonorepo\r\n \r\n+### Commands\r\n+\r\n+\r\n ### Created 2 apps (apps-2 & react-monorepo) that use a a library called (shared-ui)\r\n \r\n apps-2\r\n <img width=\"292\" alt=\"image\" src=\"https://github.com/gpDA/rx-github-page-cicd/assets/29666846/4c43c4d3-d375-4087-a860-bb5a91b1cd60\">\r\n"
+                },
+                {
+                    "date": 1696343384241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,7 @@\n <img width=\"292\" alt=\"image\" src=\"https://github.com/gpDA/rx-github-page-cicd/assets/29666846/4c43c4d3-d375-4087-a860-bb5a91b1cd60\">\r\n \r\n react-monorepo\r\n \r\n-### CI / CD deployment via AWS Amplify\r\n+### monorepo CI / CD deployment via AWS Amplify\r\n+only app-2\r\n+https://main.d39bgwvat81jqj.amplifyapp.com/\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696343457379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,11 @@\n # ReactMonorepo\r\n \r\n ### Commands\r\n+```\r\n+npx nx serve react-monorepo\r\n+npx nx serve app-2\r\n+```\r\n \r\n \r\n ### Created 2 apps (apps-2 & react-monorepo) that use a a library called (shared-ui)\r\n \r\n"
+                }
+            ],
+            "date": 1696343072450,
+            "name": "Commit-0",
+            "content": "# ReactMonorepo\r\n\r\n### Created 2 apps (apps-2 & react-monorepo) that use a a library called (shared-ui)\r\n\r\napps-2\r\n<img width=\"292\" alt=\"image\" src=\"https://github.com/gpDA/rx-github-page-cicd/assets/29666846/4c43c4d3-d375-4087-a860-bb5a91b1cd60\">\r\n\r\nreact-monorepo\r\n\r\n### CI / CD deployment via AWS Amplify\r\n"
+        }
+    ]
+}
